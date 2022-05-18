@@ -7,5 +7,5 @@ sh read_depth_calcu.sh 1 150 146638899
 ~~~
 
 > end=`$1`  
-> length=`$2  
+> length=`$2`   
 > genome_len=`$3`  
