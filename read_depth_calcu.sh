@@ -34,7 +34,7 @@ done
 
 for i in $(cat seq_len.txt );do
     
-    cat $i | while read line ;do awk '{prnit $1/"'${genome_len}'" }' > read_depth.txt  #双端测序要*2，读长150bp要*150,果蝇基因组长度约为146638899 
+    cat $i | while read line ;do awk '{prnit $1/"'${genome_len}'" }' > read_depth.txt  
 
 done
 
