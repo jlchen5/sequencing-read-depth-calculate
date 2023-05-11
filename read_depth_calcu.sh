@@ -34,7 +34,7 @@ done
 
 for i in $(cat seq_len.txt );do
     
-    cat $i | while read line ;do awk '{prnit $1/"'${genome_len}'" }' > read_depth.txt  
+    cat $i | while read line ;do awk '{print $1/"'${genome_len}'" }' > read_depth.txt  
 
 done
 
