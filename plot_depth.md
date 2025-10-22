@@ -1,6 +1,6 @@
-# 1 对 D02 染色体计算深度
+# 1 对 特定 染色体计算深度
 ```bash
-samtools depth -r D02 1077bulk-G.final.bam > depth_G.txt
+samtools depth -r D02 1077bulk-G.final.bam > depth_G.txt  # use '-r' set the chromosome
 samtools depth -r D02 1077bulk-W.final.bam > depth_W.txt
 ```
 
